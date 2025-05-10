@@ -155,8 +155,7 @@ class WeatherWidget(QWidget):
             
             # Дополнительная информация
             details = (f"💨 Ветер: {data['current']['wind_kph']} км/ч | "
-                      f"💧 Влажность: {data['current']['humidity']}% | "
-                      f"🌡 Ощущается: {data['current']['feelslike_c']}°C")
+                      f"💧 Влажность: {data['current']['humidity']}% ")
             self.details_label.setText(details)
             
             # Время последнего обновления
