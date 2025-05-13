@@ -32,6 +32,7 @@ class WeatherWidget(QWidget):
             }
             QLabel {
                 padding: 2px;
+                border-radius: 10px;
             }
             QPushButton {
                 background-color: transparent;
